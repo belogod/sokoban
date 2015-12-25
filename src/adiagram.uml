@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="128.0" y="160.0">GameField</node>
+    <node x="179.25" y="80.0">Target</node>
+    <node x="267.25" y="80.0">Wall</node>
+    <node x="106.25" y="80.0">Box</node>
+    <node x="28.25" y="80.0">Man</node>
+    <node x="0.0" y="160.0">LevelManager</node>
+    <node x="145.6875" y="0.0">Cell</node>
+    <node x="68.75" y="240.0">MainFrame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MainFrame" target="LevelManager">
+      <point x="-35.25" y="-15.0" />
+      <point x="80.5" y="220.0" />
+      <point x="27.0" y="220.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+    <edge source="GameField" target="Target">
+      <point x="11.25" y="-15.0" />
+      <point x="184.25" y="130.0" />
+      <point x="213.25" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="GameField" target="Wall">
+      <point x="33.75" y="-15.0" />
+      <point x="206.75" y="140.0" />
+      <point x="295.75" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Box" target="Cell">
+      <point x="0.0" y="-15.0" />
+      <point x="132.75" y="60.0" />
+      <point x="165.9375" y="60.0" />
+      <point x="-6.75" y="15.0" />
+    </edge>
+    <edge source="Target" target="Cell">
+      <point x="0.0" y="-15.0" />
+      <point x="213.25" y="60.0" />
+      <point x="179.4375" y="60.0" />
+      <point x="6.75" y="15.0" />
+    </edge>
+    <edge source="MainFrame" target="GameField">
+      <point x="11.75" y="-15.0" />
+      <point x="127.5" y="210.0" />
+      <point x="150.5" y="210.0" />
+      <point x="-22.5" y="15.0" />
+    </edge>
+    <edge source="Man" target="Cell">
+      <point x="0.0" y="-15.0" />
+      <point x="57.25" y="50.0" />
+      <point x="152.4375" y="50.0" />
+      <point x="-20.25" y="15.0" />
+    </edge>
+    <edge source="GameField" target="Box">
+      <point x="-11.25" y="-15.0" />
+      <point x="161.75" y="130.0" />
+      <point x="132.75" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Wall" target="Cell">
+      <point x="0.0" y="-15.0" />
+      <point x="295.75" y="50.0" />
+      <point x="192.9375" y="50.0" />
+      <point x="20.25" y="15.0" />
+    </edge>
+    <edge source="GameField" target="Man">
+      <point x="-33.75" y="-15.0" />
+      <point x="139.25" y="140.0" />
+      <point x="57.25" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="162.5" y="135.0" />
+  <SelectedNodes>
+    <node>Wall</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
