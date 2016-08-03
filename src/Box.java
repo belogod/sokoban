@@ -1,7 +1,7 @@
 import java.awt.*;
 
 /**
- * Created by Eugeny on 12.03.2015.
+ * Created by Belogod on 12.03.2015.
  */
 public class Box extends Cell {
     public Box(int x, int y) {

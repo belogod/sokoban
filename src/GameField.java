@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Eugeny on 12.03.2015.
+ * Created by Belogod on 12.03.2015.
  */
 public class GameField extends JPanel {
     public static final int CELL_SIZE = 20;

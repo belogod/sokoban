@@ -6,7 +6,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /**
- * Created by Eugeny on 12.03.2015.
+ * Created by Belogod on 12.03.2015.
  */
 public class MainFrame extends JFrame {
     private GameField field;

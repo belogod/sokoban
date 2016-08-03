@@ -1,7 +1,7 @@
 import java.awt.*;
 
 /**
- * Created by Eugeny on 12.03.2015.
+ * Created by Belogod on 12.03.2015.
  */
 public abstract class Cell {
     private int x;
